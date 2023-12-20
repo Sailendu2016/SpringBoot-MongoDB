@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1ed4193-55f6-4f65-99b9-92a4974c1e73" name="Changes" comment="" />
+    <list default="true" id="b1ed4193-55f6-4f65-99b9-92a4974c1e73" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongoDB.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mongoDB.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mongodb/SpringMongoDbApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mongodb/SpringMongoDbApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mongodb/repository/CustomItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mongodb/repository/CustomItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mongodb/repository/CustomItemRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mongodb/repository/CustomItemRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/mongodb/repository/GroceryItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/mongodb/repository/GroceryItemRepository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,16 +52,41 @@
     "TF_FMT": "false",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/sailendum/IdeaProjects/Spring-Cloud/SpringBoot-MongoDB",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/mongodb" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringMongoDbApplication">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.springframework.boot.SpringApplication" />
+      <module name="mongoDB" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringMongoDbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mongoDB" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.mongodb.SpringMongoDbApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Spring Boot.SpringMongoDbApplication" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -63,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703088924323</updated>
-      <workItem from="1703088925826" duration="1139000" />
+      <workItem from="1703088925826" duration="2269000" />
     </task>
     <task id="LOCAL-00001" summary="Initial phase commit of code structure">
       <created>1703089181122</created>
@@ -79,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703089844909</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Simple CRUD operation code commit for CLI runner">
+      <created>1703091058197</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703091058197</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +139,11 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial phase commit of code structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial phase commit of code structure" />
+    <MESSAGE value="Simple CRUD operation code commit for CLI runner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simple CRUD operation code commit for CLI runner" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.example.mongodb.entity.repository;
+package com.example.mongodb.repository;
 
 import com.example.mongodb.entity.GroceryItem;
 import com.mongodb.client.result.UpdateResult;
@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Component;
 
 @Component
-public class CustomItemRepositoryImpl implements CustomItemRepository{
+public class CustomItemRepositoryImpl implements CustomItemRepository {
     @Autowired
     private MongoTemplate mongoTemplate;
 

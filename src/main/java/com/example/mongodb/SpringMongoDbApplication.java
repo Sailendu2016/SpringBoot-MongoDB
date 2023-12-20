@@ -1,8 +1,8 @@
 package com.example.mongodb;
 
 import com.example.mongodb.entity.GroceryItem;
-import com.example.mongodb.entity.repository.CustomItemRepository;
-import com.example.mongodb.entity.repository.GroceryItemRepository;
+import com.example.mongodb.repository.CustomItemRepository;
+import com.example.mongodb.repository.GroceryItemRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +23,7 @@ public class SpringMongoDbApplication implements CommandLineRunner {
     GroceryItemRepository groceryItemRepo;
 
     @Autowired
-    CustomItemRepository customRepo;
+    CustomItemRepository customItemRepository;
 
     public static void main(String[] args) {
         LOG.info("main method started..");
@@ -115,7 +115,7 @@ public class SpringMongoDbApplication implements CommandLineRunner {
     // UPDATE using MongoTemplate
     public void updateItemQuantity(String name, float newQuantity) {
         System.out.println("Updating quantity for " + name);
-        customRepo.updateItemQuantity(name, newQuantity);
+        customItemRepository.updateItemQuantity(name, newQuantity);
     }
 
     @Override
