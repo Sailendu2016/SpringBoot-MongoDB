@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1ed4193-55f6-4f65-99b9-92a4974c1e73" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1703088924323</updated>
-      <workItem from="1703088925826" duration="3758000" />
+      <workItem from="1703088925826" duration="4030000" />
     </task>
     <task id="LOCAL-00001" summary="Initial phase commit of code structure">
       <created>1703089181122</created>
@@ -121,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703092056788</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ReadME file updated-1">
+      <created>1703140330778</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703140330778</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +149,8 @@
     <MESSAGE value="Initial phase commit of code structure" />
     <MESSAGE value="Simple CRUD operation code commit for CLI runner" />
     <MESSAGE value="File structure updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="File structure updated" />
+    <MESSAGE value="ReadME file updated-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReadME file updated-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
