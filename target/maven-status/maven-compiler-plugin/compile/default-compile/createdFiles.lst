@@ -1,0 +1,5 @@
+com/example/mongodb/repository/CustomItemRepositoryImpl.class
+com/example/mongodb/SpringMongoDbApplication.class
+com/example/mongodb/repository/CustomItemRepository.class
+com/example/mongodb/repository/GroceryItemRepository.class
+com/example/mongodb/entity/GroceryItem.class
